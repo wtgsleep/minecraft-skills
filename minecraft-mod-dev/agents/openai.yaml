@@ -1,0 +1,4 @@
+interface:
+  display_name: "我的世界 Mod 开发"
+  short_description: "按游戏版本开发、调试和移植模组，适配多加载器与基岩版附加包"
+  default_prompt: "使用 $minecraft-mod-dev，根据我的游戏版本、加载器和功能需求制作或修改 Mod，并验证构建与兼容性。"

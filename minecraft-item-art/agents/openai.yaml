@@ -1,0 +1,4 @@
+interface:
+  display_name: "我的世界物品贴图"
+  short_description: "生成原创武器与物品像素贴图，检查透明背景并按游戏版本接入模组"
+  default_prompt: "使用 $minecraft-item-art，为我的模组设计一把原创闪电剑，生成像素风透明 PNG 贴图，检查实际尺寸，并按项目需要接入资源。"
