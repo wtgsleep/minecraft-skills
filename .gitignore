@@ -1,0 +1,35 @@
+# 密钥与个人配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.codex/
+
+# 开发缓存与游戏数据
+.minecraft-tools/
+.skill-validation-deps/
+.gradle/
+build/
+run/
+world/
+worlds/
+saves/
+logs/
+crash-reports/
+*.log
+*.jar
+*.zip
+*.mcpack
+*.mcaddon
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
