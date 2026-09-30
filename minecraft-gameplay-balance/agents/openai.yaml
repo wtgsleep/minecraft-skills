@@ -1,0 +1,4 @@
+interface:
+  display_name: "玩法与数值设计"
+  short_description: "把模组点子整理为可实现的玩法规则、成长数值与可复现的平衡测试"
+  default_prompt: "使用 $minecraft-gameplay-balance，设计一把靠击杀成长的剑，给出成长公式、阶段数值和防刷取舍。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "文件批量整理"
+  short_description: "先预览分类与重命名清单，再安全整理指定目录并保留可追溯记录"
+  default_prompt: "使用 $safe-file-organizer，先预览这个目录的分类整理方案，不删除、不覆盖任何文件。"

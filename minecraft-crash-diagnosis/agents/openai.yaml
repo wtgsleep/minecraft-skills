@@ -1,0 +1,4 @@
+interface:
+  display_name: "模组崩溃诊断"
+  short_description: "结合崩溃日志定位版本冲突和缺失依赖，给出有证据的最小排查步骤"
+  default_prompt: "使用 $minecraft-crash-diagnosis，分析这份崩溃日志，解释最可能原因并给出安全的验证步骤。"

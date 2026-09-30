@@ -1,0 +1,4 @@
+interface:
+  display_name: "模组发布助手"
+  short_description: "整理模组发布文件、依赖说明与更新日志，检查隐私并明确验证状态"
+  default_prompt: "使用 $minecraft-release，把当前模组整理为本地发布包，附安装说明和更新日志，先不要上传。"
