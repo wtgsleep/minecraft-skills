@@ -1,4 +1,0 @@
-interface:
-  display_name: "学习笔记与错题"
-  short_description: "把学习资料整理成有来源的知识笔记、错因分析和可检验的复习题"
-  default_prompt: "使用 $study-notes-review，整理这些笔记和错题，解释错因，并给出几道带答案的复习题。"
