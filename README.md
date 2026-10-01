@@ -8,7 +8,6 @@
 | --- | --- |
 | [minecraft-mod-dev](minecraft-mod-dev/SKILL.md) | 开发、修复、移植 Java 模组与基岩版 Add-On |
 | [minecraft-item-art](minecraft-item-art/SKILL.md) | 生成、修改原创物品像素贴图，并按需接入资源 |
-
 | [minecraft-release](minecraft-release/SKILL.md) | 整理模组发布包、安装说明和更新日志 |
 | [minecraft-crash-diagnosis](minecraft-crash-diagnosis/SKILL.md) | 分析崩溃日志，给出有证据的排查方案 |
 | [minecraft-gameplay-balance](minecraft-gameplay-balance/SKILL.md) | 设计玩法规则、成长曲线和数值验证场景 |
@@ -33,6 +32,18 @@
 使用 $minecraft-item-art，为我的模组制作一把原创雷电剑，目标为 32×32 透明 PNG。
 ```
 
+### 更多使用示例
+
+- 模组发布：`使用 $minecraft-release，把当前模组整理成本地发布包，附安装说明与更新日志，先不上传。`
+- 崩溃诊断：`使用 $minecraft-crash-diagnosis，分析这份 latest.log，说明原因和最小排查步骤。`
+- 玩法数值：`使用 $minecraft-gameplay-balance，设计一把击杀成长的剑，给出公式、阶段数值和防刷取舍。`
+- 汉化文案：`使用 $minecraft-localization，把模组语言文件翻译成中文，检查漏翻和占位符。`
+- 视频方案：`使用 $video-edit-planner，把这些演示素材规划成一分钟视频，列出片段、旁白和字幕。`
+- 文件整理：`使用 $safe-file-organizer，先预览指定文件夹的分类方案，不删除、不覆盖。`
+- 学习笔记：`使用 $study-notes-review，整理这些笔记和错题，解释错因并附自测题和答案。`
+
+只安装自己需要的技能即可，不要求一次安装全部 9 个。视频、文件整理和学习技能也可独立用于非 Minecraft 任务。
+
 也可将具体技能文件及相关资料作为助手的任务说明；自动发现和 `$技能名` 调用是否可用，取决于宿主应用。
 
 ## 环境与限制
@@ -43,7 +54,6 @@
 - 生成器输出不保证直接符合目标像素尺寸，需要检查真实尺寸、透明度和可读性。
 - 构建通过不等于游戏内验收；未执行的检查应明确说明。
 - 不自动接受 Minecraft EULA，不操作正式存档或发布产物；需要用户明确授权。
-
 - 视频技能默认交付剪辑方案，不等于成片；实际导出需要可用的编辑工具和用户授权。
 - 文件整理先预览，不默认删除或覆盖；模组发布不会自动上传。
 - 技能经过格式与界面配置检查，不代表所有实际使用场景均已测试。
