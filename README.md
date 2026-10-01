@@ -1,6 +1,6 @@
 # Minecraft Skills
 
-本仓库专门收录 Minecraft 模组相关的中文 AI 技能，共 6 个，覆盖开发、物品贴图、发布、崩溃诊断、玩法数值和汉化。详细参考资料按需读取。这里提供的是工作流说明，不是可直接安装进游戏的模组，也不包含游戏文件或贴图资产。
+本仓库专门收录 Minecraft 模组相关的中文 AI 技能，共 7 个，覆盖开发、物品贴图、发布、崩溃诊断、玩法数值、汉化和怪物设计。详细参考资料按需读取。这里提供的是工作流说明，不是可直接安装进游戏的模组，也不包含游戏文件或贴图资产。
 
 ## 包含的技能
 
@@ -12,6 +12,7 @@
 | [minecraft-crash-diagnosis](minecraft-crash-diagnosis/SKILL.md) | 分析崩溃日志，给出有证据的排查方案 |
 | [minecraft-gameplay-balance](minecraft-gameplay-balance/SKILL.md) | 设计玩法规则、成长曲线和数值验证场景 |
 | [minecraft-localization](minecraft-localization/SKILL.md) | 汉化与润色语言文件，检查键及占位符 |
+| [minecraft-mob-design](minecraft-mob-design/SKILL.md) | 构思怪物与 Boss 的外观、生态、行为、招式及反制方法 |
 
 开发技能默认采用轻量修改流程：只读相关文件、复用已验证环境、按改动风险选择测试。详细参考资料按需加载，不保证固定的额度节省比例。
 
@@ -36,7 +37,9 @@
 - 玩法数值：`使用 $minecraft-gameplay-balance，设计一把击杀成长的剑，给出公式、阶段数值和防刷取舍。`
 - 汉化文案：`使用 $minecraft-localization，把模组语言文件翻译成中文，检查漏翻和占位符。`
 
-只安装自己需要的技能即可，不要求一次安装全部 6 个。
+- 怪物设计：`使用 $minecraft-mob-design，设计一只原创洞穴怪物，给出外观、行为、招式、弱点和掉落，先不写代码。`
+
+只安装自己需要的技能即可，不要求一次安装全部 7 个。
 
 也可将具体技能文件及相关资料作为助手的任务说明；自动发现和 `$技能名` 调用是否可用，取决于宿主应用。
 

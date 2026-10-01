@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft 怪物设计"
+  short_description: "构思模组怪物与首领，规划外观生态、行为招式、反制方法与制作成本"
+  default_prompt: "使用 $minecraft-mob-design，设计一只适合 Minecraft 模组的原创洞穴怪物，给出外观、行为、招式、弱点和掉落，先不写代码。"
